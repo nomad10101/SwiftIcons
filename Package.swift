@@ -28,7 +28,7 @@ let package = Package(
         .target(
             name: "SwiftIcons",
             dependencies: [],
-            path: "./Source"),
+            path: "Source"),
         .testTarget(
             name: "SwiftIconsTests",
             dependencies: ["SwiftIcons"]),
